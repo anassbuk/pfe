@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'pfa';
+  saideBaropen=true;
+  
+  sideBarToggler() {
+    this.saideBaropen = !this.saideBaropen;
+  }
 }
