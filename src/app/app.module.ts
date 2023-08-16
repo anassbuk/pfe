@@ -16,6 +16,8 @@ import { DashbordComponent } from './dashbord/dashbord.component';
 import { HeaderComponent } from './header/header.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { LoginComponent } from './login/login.component';
+import { FormGroup, ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -31,6 +33,7 @@ import { LoginComponent } from './login/login.component';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    ReactiveFormsModule,
      //* Material IMPORT 
     BrowserAnimationsModule,
     MatSidenavModule,
@@ -38,7 +41,8 @@ import { LoginComponent } from './login/login.component';
     MatMenuModule,
     MatIconModule,
     MatDividerModule,
-    MatListModule
+    MatListModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

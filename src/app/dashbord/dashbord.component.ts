@@ -11,5 +11,10 @@ export class DashbordComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  saideBaropen=true;
+  
+  sideBarToggler() {
+    this.saideBaropen = !this.saideBaropen;
+  }
 
 }

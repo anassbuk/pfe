@@ -17,3 +17,17 @@ color: aliceblue;
  label{
     color: aliceblue;
  }
+ :host{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+mat-drawer{
+    width: 260px;
+    background-color: rgb(35, 41, 88);
+
+}
+mat-drawer-container{ 
+    height: 100%;
+}   
